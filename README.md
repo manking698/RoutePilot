@@ -19,8 +19,6 @@ RoutePilot V1 is a focused prototype, not a full Google Maps or Waze clone.
 
 ## Why RoutePilot
 
-Most portfolio projects focus on generic CRUD applications.
-
 RoutePilot focuses on a real-world mobile navigation workflow and demonstrates product thinking, UX flow, Google Maps integration, and mobile application architecture.
 
 The goal is not to replace Google Maps or Waze, but to demonstrate engineering capability through a focused navigation experience.
@@ -94,24 +92,22 @@ Speed is based on device GPS updates and may vary in emulator/demo mode.
 
 ### Route Preview
 
-![Route Preview](docs/routepilot-v1-screenshots/routepilot-v1-screenshot-01-route-preview-shah-alam.jpg)
+<img src="docs/routepilot-v1-screenshots/routepilot-v1-screenshot-01-route-preview-shah-alam.jpg" alt="Route Preview" width="50%">
 
 ### Navigation Mode
 
-![Navigation Mode](docs/routepilot-v1-screenshots/routepilot-v1-screenshot-03-navigation-mode.jpg)
+<img src="docs/routepilot-v1-screenshots/routepilot-v1-screenshot-03-navigation-mode.jpg" alt="Navigation Mode" width="50%">
 
 ### Arrival State
 
-![Arrival State](docs/routepilot-v1-screenshots/routepilot-v1-screenshot-06-arrival-state.jpg)
+<img src="docs/routepilot-v1-screenshots/routepilot-v1-screenshot-06-arrival-state.jpg" alt="Arrival State" width="50%">
 
 ## Demo
 
 Demo video files:
 
-```text
-docs/routepilot-v1-demo-video/routepilot-v1-demo-video-take-01.mp4
-docs/routepilot-v1-demo-video/routepilot-v1-demo-video-take-02.mp4
-```
+- [RoutePilot V1 Demo Video - Take 01](docs/routepilot-v1-demo-video/routepilot-v1-demo-video-take-01.mp4)
+- [RoutePilot V1 Demo Video - Take 02](docs/routepilot-v1-demo-video/routepilot-v1-demo-video-take-02.mp4)
 
 A short demo video should show:
 
@@ -260,4 +256,4 @@ Not included in V1:
 
 ## License
 
-This project is intended for educational and portfolio purposes only.
+This project is intended for educational purposes only.
