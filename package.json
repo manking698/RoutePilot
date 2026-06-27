@@ -1,22 +1,41 @@
 {
-  "name": "liveroute",
+  "name": "route-pilot",
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "expo": "~56.0.12",
+    "expo-constants": "~56.0.18",
+    "expo-location": "~56.0.18",
     "expo-status-bar": "~56.0.4",
+    "lucide-react-native": "^1.21.0",
     "react": "19.2.3",
-    "react-native": "0.85.3"
+    "react-native": "0.85.3",
+    "react-native-maps": "1.27.2",
+    "react-native-svg": "15.15.4"
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
     "typescript": "~6.0.3"
   },
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "expo start --port 8322",
+    "android": "expo start --android --port 8322",
+    "android:rebuild": "expo run:android --port 8322",
+    "android:jdk17": "powershell -ExecutionPolicy Bypass -File ./scripts/run-android-jdk17.ps1",
+    "android:rebuild:jdk17": "powershell -ExecutionPolicy Bypass -File ./scripts/run-android-jdk17.ps1",
+    "android:devices": "adb devices",
+    "ios": "expo start --ios --port 8322",
+    "web": "expo start --web --port 8322",
+    "typecheck": "tsc --noEmit"
+  },
+  "expo": {
+    "install": {
+      "exclude": [
+        "dotenv",
+        "lucide-react-native"
+      ]
+    }
   },
   "private": true
 }

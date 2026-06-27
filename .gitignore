@@ -9,6 +9,11 @@ dist/
 web-build/
 expo-env.d.ts
 
+# local AI tool config
+.agents/
+.claude/
+.codex/
+
 # Native
 .kotlin/
 *.orig.*
@@ -25,12 +30,14 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+expo-server.log
 
 # macOS
 .DS_Store
 *.pem
 
 # local env files
+.env
 .env*.local
 
 # typescript

@@ -1,0 +1,6 @@
+<svg width="720" height="180" viewBox="0 0 720 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="44" fill="#2563EB"/>
+  <path d="M88 34L140 146L91 122L42 146L88 34Z" fill="#FFFFFF"/>
+  <path d="M88 68L112 120L90 109L68 120L88 68Z" fill="#14B8A6"/>
+  <text x="214" y="112" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">RoutePilot</text>
+</svg>
